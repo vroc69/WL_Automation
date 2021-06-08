@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching....https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Login to Saucedemo !!]]>
+    </line>
+    <line>
+      <![CDATA[Typing text: standard_user]]>
+    </line>
+    <line>
+      <![CDATA[Typing text: secret_sauce]]>
+    </line>
+    <line>
+      <![CDATA[Success Login !!]]>
+    </line>
+    <line>
+      <![CDATA[LogOut of app]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser is failed]]>
+    </line>
+  </reporter-output>
+  <suite name="QA_Regression_Saucedemo" duration-ms="6657" started-at="2021-06-07T20:52:57 CDT" finished-at="2021-06-07T20:53:04 CDT">
+    <groups>
+    </groups>
+    <test name="TC001" duration-ms="6657" started-at="2021-06-07T20:52:57 CDT" finished-at="2021-06-07T20:53:04 CDT">
+      <class name="com.saucedemo.qa.TC001_LoginValidUser">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.saucedemo.qa.TC001_LoginValidUser@1700915]" name="beforeTest" is-config="true" duration-ms="2710" started-at="2021-06-07T20:52:57 CDT" finished-at="2021-06-07T20:53:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.saucedemo.qa.TC001_LoginValidUser@1700915]" name="f" duration-ms="3190" started-at="2021-06-07T20:53:00 CDT" finished-at="2021-06-07T20:53:03 CDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching....https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Login to Saucedemo !!]]>
+            </line>
+            <line>
+              <![CDATA[Typing text: standard_user]]>
+            </line>
+            <line>
+              <![CDATA[Typing text: secret_sauce]]>
+            </line>
+            <line>
+              <![CDATA[Success Login !!]]>
+            </line>
+            <line>
+              <![CDATA[LogOut of app]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.saucedemo.qa.TC001_LoginValidUser@1700915]" name="afterTest" is-config="true" duration-ms="718" started-at="2021-06-07T20:53:03 CDT" finished-at="2021-06-07T20:53:04 CDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+            <line>
+              <![CDATA[Closing Browser is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.saucedemo.qa.TC001_LoginValidUser -->
+    </test> <!-- TC001 -->
+  </suite> <!-- QA_Regression_Saucedemo -->
+</testng-results>

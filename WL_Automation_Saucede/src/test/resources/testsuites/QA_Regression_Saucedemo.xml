@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QA_Regression_Saucedemo" parallel="tests" thread-count="1">
+<parameter name="" value="" />
+  
+  <test name="TC001">
+    <classes>
+      <class name="com.saucedemo.qa.TC001_LoginValidUser"/>
+    </classes>
+  </test> 
+  
+  <test name="TC002">
+    <classes>
+      <class name="com.saucedemo.qa.TC002_LoginInvalidUser"/>
+    </classes>
+  </test> 
+  
+  <test name="TC003">
+    <classes>
+      <class name="com.saucedemo.qa.TC0003_LogOutHomePage"/>
+    </classes>
+  </test> 
+  
+  <test name="TC004">
+    <classes>
+      <class name="com.saucedemo.qa.TC004_SortProductsByPrice"/>
+    </classes>
+  </test> 
+  
+  <test name="TC005">
+    <classes>
+      <class name="com.saucedemo.qa.TC005_AddMultipleItemsToCart"/>
+    </classes>
+  </test> 
+  
+  <test name="TC006">
+    <classes>
+      <class name="com.saucedemo.qa.TC006_AddSpecificProduct"/>
+    </classes>
+  </test> 
+  
+  <test name="TC007">
+    <classes>
+      <class name="com.saucedemo.qa.TC007_CompletePurchase"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
